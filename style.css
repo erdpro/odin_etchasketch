@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px;
+    flex: 1 1 1;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1 1 0;
+}
+
+.column {
+    display: flex;
+    flex: 1 1 0;
+}
